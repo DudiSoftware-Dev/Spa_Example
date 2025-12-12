@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Screen Background Image</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('Frame 1.svg'); /* Set your image as background */
+            background-size: contain; /* Ensure the entire image is visible */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Prevent repeating */
+            min-height: 100vh; /* Ensure body takes at least full viewport height */
+        }
+        .content {
+            min-height: 8947px; /* Set this to the height of your image for scrolling */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white; /* Change text color for visibility */
+            padding: 20px; /* Add some padding */
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Welcome to My Website</h1>
+        <p>This is an example of a scrolling interface.</p>
+        <p>More content can go here...</p>
+        <p>Scroll down for more!</p>
+    </div>
+</body>
+</html>
